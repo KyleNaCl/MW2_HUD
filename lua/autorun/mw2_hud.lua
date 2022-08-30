@@ -463,7 +463,6 @@ net.Receive("mw2_killfeed", function(len)
 			else
 				local tab = scripted_ents.Get(inflictor)
 				if tab then
-					PrintTable(tab)
 					if tab.PrintName != "" then
 						inflictor = tab.PrintName
 					end
